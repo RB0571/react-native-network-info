@@ -23,7 +23,8 @@ public final class RNNetworkInfoPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    //@Override
+    //depreated by RN0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return new ArrayList<>();
     }
